@@ -4,6 +4,7 @@ const addTodo = () => {
   const todo = document.createElement("li");
   todo.innerHTML = `<div><input type="checkbox" id="${todoInput.value}"/> <label for="${todoInput.value}"> ${todoInput.value}</label></div><div class="btn-container"><button class="remove-todo">X</button></div>`;
   todoList.append(todo);
+  todoInput.value = "";
   //   updateCheckboxes();
   let checkboxes = document.querySelectorAll(
     'ul#todo-list input[type="checkbox"]'
