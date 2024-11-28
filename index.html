@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>"Den största äran i livet ligger inte i att aldrig falla, utan i att resa sig varje gång vi faller." - Nelson Mandela</h1>
+    </header>
     <main>
         <div class="calc">
             <div class="background">
@@ -24,6 +26,29 @@
                 <h3 class="result"></h3>
             </div>
         </div>
+        <article class="todo">
+            <header>
+                <h2>To do</h2>
+            </header>
+            <ul id="todo-list">
+            </ul>
+            <section class="input-field">
+                <input type="text" id="todo-input">
+                <button id="add-todo">Add</button>
+            </section>
+        </article>
+        <div id="controls">
+            <select id="filterCriteria">
+              <option value="all">All</option>
+              <option value="city">City</option>
+              <option value="profession">Profession</option>
+              <option value="power">Power</option>
+            </select>
+        
+            <input type="text" id="filterValue" placeholder="Enter value">
+            <button id="showProfiles">Show profiles</button>
+          </div>
+          <div id="profileContainer"></div>
     </main>
     <footer></footer>
 </body>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     border: 0px;
     margin: 0px;
@@ -84,3 +85,159 @@ input:active {
         opacity: 0; /* Fade out completely */
     }
 }
+=======
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+*{
+    transition: .2s;
+}
+
+article{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+    border: 3px solid #cacaca;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    width: 50%;
+    min-width: 200px;
+    max-width: 1000px;
+}
+
+li{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 1rem 0;
+}
+
+li:hover{
+    background-color: #a3ddc1;
+}
+
+li button.remove-todo{
+    font-size: 20px;
+    color: rgb(189, 49, 49);
+    border: none;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .2s;
+}
+
+li button.remove-todo:hover{
+    transition: .2s;
+    color: rgb(203, 76, 76);
+    background-color: rgb(212, 140, 140);;
+    border: 2px solid rgb(203, 76, 76);
+};
+
+ul{
+    padding: 0;
+}
+
+ul#todo-list{
+    padding: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 300px;
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    scrollbar-color: #0b9a55 transparent;
+    border: #0b9a55 2px solid;
+    border-radius: 1rem;
+
+}
+
+article.todo > header{
+    border-bottom: 2px solid #0b9a55;
+}
+
+article.todo > header h2{
+    margin-bottom: 2px;
+}
+
+section.input-field{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section.input-field input{
+    flex-grow: 3;
+}
+section.input-field button{
+    color: white;
+    background-color: #179156;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+section.input-field button:hover{
+    background-color: #27b26f;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(201, 57, 1);
+  }
+
+  #controls, #sortControls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  #showProfiles, #sortProfiles {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9b3a14;
+    border: 1px solid #000000;
+    color: white;
+    cursor: pointer;
+  }
+
+  #showProfiles:hover, #sortProfiles:hover {
+    background-color: #b300009c;
+  }
+
+  #profileContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .card {
+    border: 1px solid #000000;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 0px 1px #000000;
+    max-width: 300px;
+    text-align: center;
+  }
+>>>>>>> 9508b74b74297a72a993cf69797cb98b5d9b1da9
