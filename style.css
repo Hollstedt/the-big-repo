@@ -191,8 +191,6 @@ section.input-field button{
 section.input-field button:hover{
     background-color: #27b26f;
 }
-<<<<<<< HEAD
-=======
 body {
     margin: 0;
     height: 100vh;
@@ -240,4 +238,3 @@ body {
     max-width: 300px;
     text-align: center;
   }
->>>>>>> 9508b74b74297a72a993cf69797cb98b5d9b1da9
