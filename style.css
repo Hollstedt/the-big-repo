@@ -38,6 +38,10 @@ li{
     margin: 1rem 0;
 }
 
+li:hover{
+    background-color: #a3ddc1;
+}
+
 li button.remove-todo{
     font-size: 20px;
     color: rgb(189, 49, 49);
@@ -61,6 +65,7 @@ ul{
 }
 
 ul#todo-list{
+    padding: 5px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
