@@ -191,3 +191,53 @@ section.input-field button{
 section.input-field button:hover{
     background-color: #27b26f;
 }
+<<<<<<< HEAD
+=======
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(201, 57, 1);
+  }
+
+  #controls, #sortControls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  #showProfiles, #sortProfiles {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9b3a14;
+    border: 1px solid #000000;
+    color: white;
+    cursor: pointer;
+  }
+
+  #showProfiles:hover, #sortProfiles:hover {
+    background-color: #b300009c;
+  }
+
+  #profileContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .card {
+    border: 1px solid #000000;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 0px 1px #000000;
+    max-width: 300px;
+    text-align: center;
+  }
+>>>>>>> 9508b74b74297a72a993cf69797cb98b5d9b1da9
